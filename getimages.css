@@ -1,0 +1,77 @@
+
+.modal-dialog {
+  width: auto;
+}
+.thumbnail {margin-bottom:6px;}
+
+.modal-body #mimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 200px;
+}
+
+.gallery-title
+{
+    width: 80%;
+	margin-left: 10px;
+	text-align: left;
+    z-index:100;
+    position:absolute;   
+    background-color: white; 
+    color:black;
+    top:50%;
+    display: block;
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+.gallery-imgtitle
+{
+    width: 100%;
+	/*max-width: 200px;*/
+    z-index:100;
+    position:absolute;   
+    background-color: white; 
+    color:black;
+    top:10%;
+    display: block;
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+@media (max-width: 767px) {
+	.gallery-imgtitle
+	{
+		padding-left: 10px;
+		padding-right: 35px;
+		min-width: 145px;
+		max-width: 200px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.gallery-imgtitle
+	{
+		padding-left: 0px;
+		padding-right: 15px;
+		max-width: 165px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.gallery-imgtitle
+	{
+		padding-left: 0px;
+		padding-right: 25px;
+		max-width: 220px;
+	}
+}
+@media (min-width: 1200px) {
+	.gallery-imgtitle
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 170px;
+	}
+}
